@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utk2602/Chat-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/utk2602/Chat-App/issues"
+  },
+  "homepage": "https://github.com/utk2602/Chat-App#readme",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3",
+    "was": "^1.0.31",
+    "ws": "^8.18.2"
+  }
+}
